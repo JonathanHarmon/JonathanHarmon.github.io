@@ -27,18 +27,23 @@
 }
 
 .item-1 {
-    order: 1;
+    order: 0;
+    flex-grow: 1;
 }
 
 .item-2 {
-    order: 0;
+    order: 1;
+    flex-grow: 1;
 }
 .item-3 {
-    order: 4;
+    order: 2;
+    flex-grow: 2;
 }
 .item-4 {
-    order: 2;
+    order: 3;
+    flex-grow: 3;
 }
 .item-5 {
-    order: 3;
+    order: 4;
+    flex-grow: 1;
 }
