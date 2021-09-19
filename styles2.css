@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: [col1] 33% [col2] 33% [col3] 33%;
+    grid-template-columns: [col1] 50% [col2] 25% [col3] 25%;
     grid-gap: 10px;
     grid-template-rows: [row1] 47% [row2] 47%;
     text-align: center;
@@ -33,8 +33,8 @@
     
     .grid-cell-5 {
     background-color: #898989;
-    grid-column: 3 ;
-    grid-row: 1 / 3;
+    grid-column: 2 ;
+    grid-row: 1 / 2;
     padding: 25px;
     border-radius: 6px;
     }
