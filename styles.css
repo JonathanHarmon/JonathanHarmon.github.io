@@ -11,7 +11,7 @@
     height: 600px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     align-content: space-evenly;
